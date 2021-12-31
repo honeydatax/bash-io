@@ -11,6 +11,7 @@ int main(int argc,char *argv[]){
 	char c[2080];
 	if (argc>2){
 		i=atoi(argv[1]);
+		strcpy(c,"");
 		ii=strlen(argv[2]);
 		if(i*ii<2070){
 			for(n=0;n<i+1;n++){
