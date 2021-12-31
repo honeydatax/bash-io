@@ -1,13 +1,10 @@
-stars () {
-	for a in $(seq 0 $1)
-	do
-		printf "*"
-	done 
+grap(){
+	./char $1 '*'
+	printf "\n"
 }
 
-printf "\ec\e[44;36m\a\nmacro graphics\n\n"
-for b in $(seq 0 10)
+printf "\ec\e[44;36m\n"
+for n in $(seq 1 10)
 do
-	stars $b
-	printf "\n"
-done
+	grap $n
+done 
