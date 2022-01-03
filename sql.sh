@@ -50,3 +50,4 @@ datasize=my.dat
 	runs $database $filein
 remove $filein
 cp $database $datasize
+remove $database
